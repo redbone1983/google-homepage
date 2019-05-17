@@ -1,7 +1,6 @@
-img {
-    height: 92px;
-    width: 272px;
-    padding-top: 109px;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 
