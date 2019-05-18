@@ -5,28 +5,31 @@ body {
 }
 
 header {
-    padding-top: 10px;
+    width: 100%;
 }
 
-
-.bottom-nav {
-    padding-top: 400px;
+#sign_in:hover { 
+    box-shadow: 1px 1px 5px #999;
+  }
+  
+#sign_in {
+    color:white;
 }
 
-.logo {
-    width: 50%;
-    height: 20%;
+#nav_bar #sign_in {
+    background: #4887ef; 
+    padding: 7px 15px;
+    border-radius: 3px; 
+    font-weight: bold;
 }
-
 
 .grid-item-left {
     float: left;
  }
 
- .grid-item-right {
+.grid-item-right {
     float: right;
- }
-
+}
 
 ul {
     list-style: none;
@@ -38,28 +41,72 @@ li {
     float: left;
 }
 
+li button {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 200px;
+}
+
+
  a {
      display: block;
      padding: 10px;
      text-decoration: none;
  }
 
- li button {
+.logo {
+    text-align: center;
     display: block;
-    padding: 10px;
-    text-decoration: none;
- }
-
-.button {
-    display: block;
-    padding: 20px;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
 }
 
 .search {
     border-radius: 50px;
-    margin-top: 20px;
-    line-height: 34px;
-    padding: 7px;
-    height: 34px;
-    width: 350px;
+    border: 0.5px solid lightgray;
+    padding: 15px;
+    width: 400px;
 }
+.search:hover { 
+    box-shadow: 1px 1px 5px #999;
+}
+
+.search-bar {
+    text-align: center;
+    margin-top: 10px;
+}
+
+input.search { 
+    background-image: url("google-transparent-microphone.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+  
+.bottom-nav {
+    padding-top: 140px;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+

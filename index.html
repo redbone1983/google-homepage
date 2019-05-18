@@ -11,7 +11,7 @@
     <header>
         <!-- Align Horizontally -->
         <nav>
-           <ul>
+           <ul id="nav_bar">
                      <!-- Align Left -->
                     <div class="grid-item-left">
                         <li><a href="#">About</a></li>
@@ -20,7 +20,7 @@
                     <div class="grid-item-right">
                         <li><a href="#">Gmail</a></li>
                         <li><a href="#">Images</a></li>
-                        <li><button>Sign In</button></li>
+                        <li id="sign_in">Sign In</li>
                     </div>
                 </ul>
                
@@ -30,48 +30,45 @@
 
     <!-- Align Center -->
     
-   <center>
-        <main>
-            <span>
-            <div class="logo">
-                <img height="92" src="googlelogo_color_272x92dp.png" alt="Google multicolored logo" style="padding-top:109px;" width="272">
-            </div>
-        </span>
-                <form action="#" method="post">
-                    <input class="search" type="text" id="query" name="search_query" maxlength="2048">
-                    <!-- Inline Side By Side -->
-                    <div class="button">
-                        <button type="submit">Google Search</button>
-                        <button type="submit">I'm Feeling Lucky</button>
-                    </div>
-                </form>
-                <div>
-                    <a href="#">Explore Google's impact on businesss in California</a>
-                </div>
-            
-        </main>
-    </center>
+  
+    <main>
+         <!-- GOOGLE IMG -->  
+        <div class="logo">
+            <img height="92" src="googlelogo_color_272x92dp.png" alt="Google multicolored logo">
+        </div>
 
-    <!-- Align Horizontally -->
-    <footer>
-            <nav>
-                <div class="bottom-nav">
-                <ul>
-                        <!-- Align Left -->
-                        <div class="grid-item-left">
-                            <li><a href="#">Advertising</a></li>
-                            <li><a href="#">Business</a></li>
-                        </div>
-                        <!-- Align Right -->
-                        <div class="grid-item-right">
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Terms</a></li>
-                            <li><a href="#">Settings</a></li>
-                        </div>
-                    </ul>
-                </div>
-            </nav>
-    </footer>
+        <!-- FORM SEARCH -->  
+        <div class="search-bar">
+            <form action="#" method="post">
+                <input class="search" type="text">
+            </form>
+        </div>
+            
+        <!-- BUTTONS -->
+        <div class="buttons">
+            <input type="submit" value="Google Search" id="google_search">
+            <input type="submit" value="I'm Feeling Lucky" id="im_feelin_lucky">
+            <a href="#">Explore Google's impact on businesss in California</a>
+        </div>
+            
+       
+            
+    </main>
+        
+        <!-- FOOTER -->
+        <footer class="bottom-nav">
+            <!-- Align Left -->
+            <ul class="grid-item-left">
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+            </ul>
+            <!-- Align Right -->
+            <ul class="grid-item-right">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </footer>
     
 </body>
 </html>
