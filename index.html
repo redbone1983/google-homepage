@@ -11,37 +11,34 @@
     <header>
         <!-- Align Horizontally -->
         <nav>
-            <div class="grid-container">
-                <ul>
+           <ul>
                      <!-- Align Left -->
-                    <div style="grid-item">
+                    <div class="grid-item-left">
                         <li><a href="#">About</a></li>
                         <li><a href="#">Store</a></li>
                     </div>
-
-                    <!-- Align Right -->
-                    <div style="grid item">
+                    <div class="grid-item-right">
                         <li><a href="#">Gmail</a></li>
                         <li><a href="#">Images</a></li>
-                        <button><a href="#">Sign In</a></button>
+                        <li><button>Sign In</button></li>
                     </div>
                 </ul>
-            </div>
+               
+            
         </nav>
     </header>
 
     <!-- Align Center -->
     
-   
+   <center>
         <main>
-            <center>
-                <div style="height:233px;margin-top:89px;display:block;">
-                    <img src="googlelogo_color_272x92dp.png" alt="Google multicolored logo">
-                </div>
+            <span>
+            <div class="logo">
+                <img height="92" src="googlelogo_color_272x92dp.png" alt="Google multicolored logo" style="padding-top:109px;" width="272">
+            </div>
+        </span>
                 <form action="#" method="post">
-                    <div>
-                        <input type="text" id="query" name="search_query">
-                    </div>
+                    <input class="search" type="text" id="query" name="search_query" maxlength="2048">
                     <!-- Inline Side By Side -->
                     <div class="button">
                         <button type="submit">Google Search</button>
@@ -51,30 +48,29 @@
                 <div>
                     <a href="#">Explore Google's impact on businesss in California</a>
                 </div>
-            </center>
+            
         </main>
-  
+    </center>
 
     <!-- Align Horizontally -->
     <footer>
-        <nav>
-                <div class="container">
-                        <ul>
-                             <!-- Align Left -->
-                            <div style="float:left;">
-                                <li><a href="#">Advertising</a></li>
-                                <li><a href="#">Business</a></li>
-                            </div>
-        
-                            <!-- Align Right -->
-                            <div style="float:right;">
-                                <li><a href="#">Privacy</a></li>
-                                <li><a href="#">Terms</a></li>
-                                <li><a href="#">Settings</a></li>
-                            </div>
-                        </ul>
-                    </div>
-        </nav>
+            <nav>
+                <div class="bottom-nav">
+                <ul>
+                        <!-- Align Left -->
+                        <div class="grid-item-left">
+                            <li><a href="#">Advertising</a></li>
+                            <li><a href="#">Business</a></li>
+                        </div>
+                        <!-- Align Right -->
+                        <div class="grid-item-right">
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Settings</a></li>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
     </footer>
     
 </body>
