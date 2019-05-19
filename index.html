@@ -4,57 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <title>Google Homepage Clone</title>
 </head>
 <body>
-    <header>
-        <!-- Align Horizontally -->
-        <nav>
-           <ul id="nav_bar">
-                     <!-- Align Left -->
-                    <div class="grid-item-left">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Store</a></li>
-                    </div>
-                    <div class="grid-item-right">
-                        <li><a href="#">Gmail</a></li>
-                        <li><a href="#">Images</a></li>
-                        <li id="sign_in">Sign In</li>
-                    </div>
-                </ul>
-               
-            
-        </nav>
-    </header>
-
-    <!-- Align Center -->
-    
-  
+    <header id="nav_bar">
+        <ul class="grid-item-left">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+        </ul>
+        <ul class="grid-item-right">
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li><img id="menu-grid" src="06_menu_grid-512.png" alt="menu grid"></li>
+            <li id="sign_in">Sign In</li>
+        </ul>
+     </header>
     <main>
-         <!-- GOOGLE IMG -->  
+        <!-- GOOGLE IMG -->  
         <div class="logo">
             <img height="92" src="googlelogo_color_272x92dp.png" alt="Google multicolored logo">
         </div>
-
         <!-- FORM SEARCH -->  
         <div class="search-bar">
             <form action="#" method="post">
-                <input class="search" type="text">
+                <input type="text" class="search">
             </form>
         </div>
-            
         <!-- BUTTONS -->
         <div class="buttons">
-            <input type="submit" value="Google Search" id="google_search">
-            <input type="submit" value="I'm Feeling Lucky" id="im_feelin_lucky">
-            <a href="#">Explore Google's impact on businesss in California</a>
+            <input class="google_search" type="submit" value="Google Search" id="google_search">
+            <input class="lucky" type="submit" value="I'm Feeling Lucky" id="im_feelin_lucky">
         </div>
-            
-       
-            
     </main>
-        
         <!-- FOOTER -->
         <footer class="bottom-nav">
             <!-- Align Left -->
@@ -69,6 +51,5 @@
                 <li><a href="#">Settings</a></li>
             </ul>
         </footer>
-    
 </body>
 </html>
