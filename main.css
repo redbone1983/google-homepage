@@ -1,7 +1,6 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 header {
@@ -25,7 +24,7 @@ header {
     width: 17px;
   }
 
-#nav_bar #sign_in {
+#top-nav #sign_in {
     background: #4887ef;
     padding: 10px 15px;
     border-radius: 4px; 
@@ -79,10 +78,7 @@ input:hover {
     text-align: center;
     height: 36px;
     line-height: 27px;
-    
 }
-
-
 
 .buttons {
     text-align: center;
@@ -90,8 +86,7 @@ input:hover {
     display: block;
 }
 
-
- a {
+a {
      display: inline-block;
      padding: 10px;
      text-decoration: none;
@@ -114,6 +109,7 @@ input:hover {
     padding: 15px;
     width: 415px;
 }
+
 .search:hover { 
     box-shadow: 1px 1px 5px #999;
 }
@@ -133,7 +129,6 @@ input.search {
 
 }
 
-
 footer {
     width: 100%;
 }
@@ -147,7 +142,6 @@ footer {
     background-color: #f2f2f2;
     color: white;
     text-align: center;
-   
 }
 
 
