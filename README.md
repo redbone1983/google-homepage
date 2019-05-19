@@ -1,7 +1,7 @@
 # google-homepage
 Project Objectives : 
 
-Build a Google Hompage Clone:
+Build a Google Homepage Clone:
 Link to my interpretation: https://redbone1983.github.io/google-homepage/
 
 Note: A future version of myself plans to refactor this even more...
